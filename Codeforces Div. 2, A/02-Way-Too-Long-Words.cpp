@@ -8,17 +8,17 @@ int main()
         cin >> n;
         while (n--)
         {
-                string str;
-                cin >> str;
-                int temp = str.size();
+                string st;
+                cin >> st;
+                int temp = st.size();
                 if (temp <= 10)
                 {
-                        cout << str << endl;
+                        cout << st << endl;
                 }
                 else
                 {
-                        int value = str.size() - 2;
-                        cout << str[0] << value << str[str.size() - 1] << endl;
+                        int value = st.size() - 2;
+                        cout << st[0] << value << st[st.size() - 1] << endl;
                 }
         }
         return 0;
